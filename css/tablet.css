@@ -8,20 +8,23 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .section-ul .list.section-second-list {
+  .section-ul .list .section-second-list {
     width: calc((100% - 24px) / 2);
   }
 
-  .section-ul .list.section-third-list {
+  .section-ul .list .section-third-list {
     width: calc((100% - 24px) / 2);
   }
 
-  .section-ul.four .list.last {
+  .section-ul .four .list.last {
     width: calc((100% - 24px) / 2);
   }
 
   .social-media-icons {
     margin-top: 10px;
+  }
+  .second-section-image-box {
+    display: none;
   }
 
   .footer-container {
