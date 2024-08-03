@@ -4,15 +4,11 @@
   .header {
   }
   .container {
-    padding: auto 108px;
+    padding: 0 108px;
   }
   .section-ul {
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .second-section-container {
-    padding: auto 16px;
   }
 
   .second-section-image-box {
