@@ -10,10 +10,6 @@
     display: none;
   }
 
-  .second-section-container {
-    padding: auto 16px;
-  }
-
   .etiket {
     display: none;
   }
@@ -24,16 +20,15 @@
     align-content: center;
   }
   .section-ul .list.section-second-list {
-    width: 100%;
-    
+    width: calc((100% - 12px) / 1);
   }
 
   .section-ul .list.section-third-list {
-    width: 100%;
+    width: calc((100% - 12px) / 1);
   }
 
   .section-ul.four .list.last {
-    width: 100%;
+    width: calc((100% - 12px) / 1);
   }
 
   .social-media-icons {
@@ -43,7 +38,7 @@
   .footer-container {
     flex-wrap: wrap;
     justify-content: row;
-    padding: 0px 16px;
+    padding: 0px 85px;
   }
 
   .embeded-container {
@@ -60,8 +55,5 @@
 
   .embeded-form {
     flex-direction: column;
-  }
-
-
   }
 }

@@ -1,20 +1,13 @@
-/* tablet görünüüm için geçerli styles */
-
 @media (max-width: 768px) {
   .header {
   }
   .container {
-    padding: 0 108px;
+    width: 100%;
   }
   .section-ul {
     display: flex;
     flex-wrap: wrap;
   }
-
-  .second-section-image-box {
-    display: none;
-  }
-
   .section-ul .list.section-second-list {
     width: calc((100% - 24px) / 2);
   }
