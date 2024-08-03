@@ -10,6 +10,11 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  .second-section-container {
+    padding: auto 16px;
+  }
+
   .second-section-image-box {
     display: none;
   }
