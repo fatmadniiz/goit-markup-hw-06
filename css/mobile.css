@@ -3,11 +3,15 @@
     display: none;
   }
   .container {
-    padding: auto 28px;
+    width: 320px;
   }
 
   .second-section-image-box {
     display: none;
+  }
+
+  .second-section-container {
+    padding: auto 16px;
   }
 
   .etiket {
@@ -21,6 +25,7 @@
   }
   .section-ul .list.section-second-list {
     width: 100%;
+    
   }
 
   .section-ul .list.section-third-list {
@@ -55,5 +60,8 @@
 
   .embeded-form {
     flex-direction: column;
+  }
+
+
   }
 }
